@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "4f072e44-b137-4366-8275-dbf475132069",
+		"name": "CTG Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26203641"
+	},
+	"item": [
+		{
+			"name": "Mercado Livre API",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.mercadolibre.com/sites",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.mercadolibre.com/sites",
+					"protocol": "https",
+					"host": [
+						"api",
+						"mercadolibre",
+						"com"
+					],
+					"path": [
+						"sites"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.mercadolibre.com/sites/MLA/domain_discovery/search?limit=1&q=celular%20iphone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.mercadolibre.com/sites/MLA/domain_discovery/search?limit=1&q=celular%20iphone",
+					"protocol": "https",
+					"host": [
+						"api",
+						"mercadolibre",
+						"com"
+					],
+					"path": [
+						"sites",
+						"MLA",
+						"domain_discovery",
+						"search"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1"
+						},
+						{
+							"key": "q",
+							"value": "celular%20iphone"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.mercadolibre.com/sites/MLA/domain_discovery/search?limit=2&q=celular%20iphone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.mercadolibre.com/sites/MLA/domain_discovery/search?limit=2&q=celular%20iphone",
+					"protocol": "https",
+					"host": [
+						"api",
+						"mercadolibre",
+						"com"
+					],
+					"path": [
+						"sites",
+						"MLA",
+						"domain_discovery",
+						"search"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2"
+						},
+						{
+							"key": "q",
+							"value": "celular%20iphone"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
